@@ -1,11 +1,15 @@
 /* Defaults */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-html, body {
+html,body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins' sans-serif;
   color: #222222;
+}
+
+.navbar {
+    min-height: 800px;
 }
 
 
@@ -61,5 +65,3 @@ will-change: transform;
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
   padding: 1rem;
-
-
