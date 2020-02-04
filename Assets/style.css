@@ -5,16 +5,18 @@ html,body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins' sans-serif;
-  color: #222222;
+  color:
 }
 
 .navbar {
-    min-height: 150px;
+    max-height: 200px;
     font-size: 20px;
+    background-color: burlywood;
 }
 
-.navbar-text {
-  font-size: xx-large;
+.introduction {
+  max-height: 200px;
+  background-color: cadetblue;
 }
 
 
